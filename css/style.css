@@ -7,9 +7,9 @@ background-color: #ffec41;
 .header{
     width: 100%;
     background: #d90404;
-    padding: 25px;
+    padding: 10px 0;
 }
-
+    
 .topo{
     text-align: right;
 }
@@ -17,5 +17,11 @@ background-color: #ffec41;
 .topo ul li {
     display: inline-block;
     margin-left: 30px;
-    
+
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
 }
