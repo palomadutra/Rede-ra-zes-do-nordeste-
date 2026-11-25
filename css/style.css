@@ -1,27 +1,49 @@
+/* Faixa superior */
 .one {
-width: 100%;
-height: 4px;
-background-color: #ffec41;
+    width: 100%;
+    height: 4px;
+    background-color: #ffec41;
 }
 
-.header{
+/* Cabeçalho */
+.header {
     width: 100%;
     background: #d90404;
-    padding: 10px 0;
+    padding: 5px 0;
 }
-    
-.topo{
+
+.header .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Logomarca */
+.logo {
+    width: 110px;
+    height: auto;
+    display: block;
+}
+
+/* Menu de navegação */
+.topo {
     text-align: right;
 }
 
 .topo ul li {
     display: inline-block;
-    margin-left: 30px;
-
+    margin-left: 20px;
 }
 
-.logo {
-    width: 120px;
-    height: auto;
-    display: block;
+.topo ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.topo ul li a:hover {
+    color: #ffec41;
 }
